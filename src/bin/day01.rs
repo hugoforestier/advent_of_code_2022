@@ -38,7 +38,7 @@ fn part2(input: &str) -> io::Result<()> {
 }
 
 fn main() -> io::Result<()> {
-    let input = include_str!("test.input");
+    let input = include_str!("test1.input");
 
     part1(&input)?;
     part2(&input)?;
